@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { Formik } from 'formik';
 import axios from 'axios';
+import './Cadastro.css'
 
 const Cadastro = () => {
 

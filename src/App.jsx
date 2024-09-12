@@ -29,8 +29,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Link to={"/cadastro"}>
-        CADASTRO
+      <Link to={"/listagem"}>
+        LISTAGEM
       </Link>
     </>
   )
