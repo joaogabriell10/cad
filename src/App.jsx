@@ -32,6 +32,10 @@ function App() {
       <Link to={"/listagem"}>
         LISTAGEM
       </Link>
+      <br/>
+      <Link to={"/formulario"}>
+        FORMULÁRIO
+      </Link>
     </>
   )
 }
