@@ -3,6 +3,8 @@ import Cadastro from "./pages/Cadastro"
 import App from "./App"
 import Listagem from "./pages/Listagem"
 import Formulario from "./pages/Formulario"
+import DetalheProduto from "./pages/DetalheProduto"
+import Alterar from "./pages/Alterar"
 
 const AppRoutes = () => {
 
@@ -12,6 +14,8 @@ const AppRoutes = () => {
             <Route path="/cadastro" element={<Cadastro />} />
             <Route path="/listagem" element={<Listagem />} />
             <Route path="/formulario" element={<Formulario />} />
+            <Route path="/detalhe" element={<DetalheProduto />} />
+            <Route path="/alterar" element={<Alterar />} />
         </Routes>
     )
 }

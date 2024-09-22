@@ -35,7 +35,12 @@ const Listagem = () => {
                 <Card.Text>
                     {produto.descricao}
                 </Card.Text>
-                <Button variant="primary">Detalhe do Produto</Button>
+                <Card.Text>
+                    {produto.preco}
+                </Card.Text>
+                <Link to="/detalhe" state={{produto: produto}}>
+                    Detalhe do Produto
+                </Link>
             </Card.Body>
             </Card>
         </li>
