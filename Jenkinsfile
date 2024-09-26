@@ -1,5 +1,7 @@
-def gv
 // CODE_CHANGES = getGitChanges()
+
+def gv
+
 pipeline{
     agent any
     // environment {
@@ -55,7 +57,9 @@ pipeline{
                 }
             }
             steps{
-                gv.testApp()
+                script {
+                    gv.testApp()
+                }
                 
             }
         }
@@ -63,7 +67,9 @@ pipeline{
         stage("deploy"){
 
             steps{
-                gv.deployApp()
+                script {
+                    gv.deployApp()
+                }
                 // withCredentials([
                 //     usernamePassword(credentials('server-credentials', usernameVariable: USER, passwordVariable: PWD))
                 // ]){
