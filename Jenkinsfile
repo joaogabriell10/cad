@@ -19,7 +19,7 @@ node("master") {
 
 			withSonarQubeEnv('sonarqube') {
 
-				sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=vm-avmobile-ws -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.login=sqp_4a899e5c5fb0e85f9475555eccfdc54ca5b7f665'
+				sh 'mvn sonar:sonar -Dsonar.projectKey=My-Pipeline -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.login=sqp_4a899e5c5fb0e85f9475555eccfdc54ca5b7f665'
 
 			}
 
