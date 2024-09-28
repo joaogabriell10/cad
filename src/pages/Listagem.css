@@ -1,0 +1,23 @@
+li {list-style: none}
+
+.card-product {
+    width: 18rem; 
+    border-radius:2vh; 
+    margin: 4vh;  
+    background-color:beige;
+ }
+
+ .img-product {
+    width: 12rem; 
+    border-radius:2vh; 
+    margin: 1vh;  
+    background-color:whitesmoke;
+    padding: 1rem;
+ }
+
+.garbage {
+    width:2em;
+    height:2em;
+    margin-bottom: 4vh;
+    align-self: flex-end;
+}
