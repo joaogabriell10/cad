@@ -68,13 +68,13 @@ const Listagem = () => {
                 <Card.Body>
                     <Card.Title>{produto.nome}</Card.Title>
                     <Card.Text>
-                        {produto.descricao}
-                    </Card.Text>
-                    <Card.Text>
                         {produto.preco}
                     </Card.Text>
+                    <Card.Text>
+                        {produto.paisOrigem}
+                    </Card.Text>
                     <Link to="/detalhe" state={{produto: produto}}>
-                        Detalhe do Produto
+                        Ver Mais
                     </Link>
                 </Card.Body>
             </Card>

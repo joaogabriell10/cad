@@ -28,10 +28,9 @@ const DetalheProduto = () => {
                 <Card.Body>
                     <Card.Title>{produto.id} - {produto.nome}</Card.Title>             
                     <Card.Text>{produto.descricao}</Card.Text>
-                    <Card.Text>{produto.codigo}</Card.Text>
                     <Card.Text>{produto.preco}</Card.Text>
-                    <Card.Text>{produto.categoria}</Card.Text>
-                    <Card.Text>{produto.destaque}</Card.Text>
+                    <Card.Text>{produto.paisOrigem}</Card.Text>
+                    <Card.Text>{produto.tipoPrato}</Card.Text>
                     
                     {(navegar) ? <Navigate 
                         to="/alterar" 
